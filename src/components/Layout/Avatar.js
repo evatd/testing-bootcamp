@@ -35,4 +35,9 @@ Avatar.propTypes = {
   size: PropTypes.string,
 }
 
+// can change it so you get this name in your serialised output
+// in the _snapshot_ output ( not getting it in this dir for some reason)
+// instead of styled.img
+// Avatar.displayName = 'Avatar' 
+
 export default Avatar
